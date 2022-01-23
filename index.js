@@ -24,6 +24,9 @@ database.getConnection((err, dbConnection) => {
 	}
 });
 
+if (process.env.IS_HEROKU) {
+	var database = mysql.createPool(dbConfig_heroku);
+}
 
 http.createServer(function(req, res) {
 	console.log("page hit");
