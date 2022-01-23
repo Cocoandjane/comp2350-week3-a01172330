@@ -4,10 +4,10 @@ const http = require('http');
 const port = process.env.PORT || 3000;
 
 const dbConfig = {
-	host: "host",
-	user: "user",
-	password: "password",
-	database: "database",
+	host: "kutnpvrhom7lki7u.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+	user: "eczhxfw46z8qk0op",
+	password: "pka5icd23iflxo1t",
+	database: "t9ssv5gmp1hwbfux",
 	multipleStatements: false,
 	reconnect: true
 };
